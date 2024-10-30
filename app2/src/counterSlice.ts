@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { isParameterPropertyDeclaration } from 'typescript';
 
 interface CounterState {
   value: number;

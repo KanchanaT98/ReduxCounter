@@ -3,7 +3,7 @@ import Counter from './Counter';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div style={{textAlign:'center', marginTop: "10%"}}>
       <h1>Redux Counter with TypeScript</h1>
       <Counter />
     </div>
