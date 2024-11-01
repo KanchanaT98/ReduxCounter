@@ -14,7 +14,7 @@ const Counter: React.FC = () => {
       <button onClick={() => dispatch(decrement())}>Decrement</button>
       <button onClick={() => dispatch(incrementByAmount(5))}>Increment by 5</button>
       <button onClick={() => dispatch(decrementByAmount(5))}>Decrement by 5</button>
-      <button onClick={() => dispatch(resetCounter(0))}>Reset</button>
+      <button style={{color :"red"}} onClick={() => dispatch(resetCounter(0))}>Reset</button>
     </div>
   );
 };
