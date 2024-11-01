@@ -24,8 +24,8 @@ const counterSlice = createSlice({
     decrementByAmount: (state, action: PayloadAction<number>) => {
       state.value -= action.payload;  
     },
-    resetCounter: (state, action: PayloadAction<number>) => {
-      state.value = action.payload;  
+    resetCounter: (state) => {
+      state.value = initialState.value;  
     }
   },
 });
